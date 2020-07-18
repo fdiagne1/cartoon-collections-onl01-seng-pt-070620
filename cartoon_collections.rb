@@ -9,7 +9,6 @@ end
 def summon_captain_planet(planeteer_calls)
   collection = []
   planeteer_calls.each do |call|
-  #  binding.pry
   collection << call.capitalize + "!"
 end
   collection
